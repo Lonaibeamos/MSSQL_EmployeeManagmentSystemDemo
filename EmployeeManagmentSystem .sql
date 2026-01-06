@@ -3,6 +3,8 @@
 -- Enhanced for Gelan, Ethiopia Location
 -- =====================================================
 
+-- ALL THE DATA'S FOUND HERE INCLUDING THE STRUCTURE IS JUST IDEAL NOT ACTUAL !!!
+
 -- 1 To Drop and Create Database cuz i had difficulties with it thats why i dropped and created it again 
 IF EXISTS (SELECT name FROM sys.databases WHERE name = 'CadilaPharmaceuticalsEMS')
     DROP DATABASE CadilaPharmaceuticalsEMS;
