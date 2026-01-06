@@ -3,9 +3,11 @@
 -- Enhanced for Gelan, Ethiopia Location
 -- =====================================================
 
--- ALL THE DATA'S FOUND HERE INCLUDING THE STRUCTURE IS JUST IDEAL NOT ACTUAL !!!
-
--- 1 To Drop and Create Database cuz i had difficulties with it thats why i dropped and created it again 
+/*This is a mock pharmacy database for learning and demonstration.
+All data is fictional.
+No real-world data is included.
+*/
+-- 1 To Drop and Create Database cuz i had  difficulties with thats why i dropped and created it again 
 IF EXISTS (SELECT name FROM sys.databases WHERE name = 'CadilaPharmaceuticalsEMS')
     DROP DATABASE CadilaPharmaceuticalsEMS;
 GO
